@@ -36,12 +36,12 @@ export const Navbar = () => {
           
         </form>
         <div className="space-x-4">
-          <button className="px-[2.5rem] py-[0.5rem] rounded-[1rem] border-2 border-red-600 text-red-600">
+          <a href="/Login" className="px-[2.5rem] py-[0.5rem] rounded-[1rem] border-2 border-red-600 text-red-600">
             Login
-          </button>
-          <button className="px-[2.5rem] py-[0.5rem] rounded-[1rem] bg-red-600 text-white">
+          </a>
+          <a href="/Register" className="px-[2.5rem] py-[0.5rem] rounded-[1rem] bg-red-600 text-white">
             Register
-          </button>
+          </a>
         </div>
       </div>
     </div>
