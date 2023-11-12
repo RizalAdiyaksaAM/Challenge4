@@ -9,15 +9,6 @@ import { CookieKeys, CookieStorage } from '../utils/cookie'
 
 export const Home = () => {
   
-  const navigate = useNavigate()
-
-    useEffect(() => {
-        const cekCookie = CookieStorage.get(CookieKeys.AuthToken)
-        if (!cekCookie) {
-            navigate('/')
-        } 
-        
-    })
 
   return (
     <div className='bg-black'>

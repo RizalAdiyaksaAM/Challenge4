@@ -8,6 +8,7 @@ import { DetailMovie } from '../pages/DetailMovie'
 import { Register } from '../pages/auth/Register'
 import { LoginPage } from '../pages/auth/LoginPage'
 import { Dashbooard } from '../pages/Dashbooard'
+import { Latihan } from '../pages/Latihan'
 
 
 
@@ -17,7 +18,7 @@ export const TodoList = () => {
     <Routes>
     <Route path='/Home' element={<Home/>}/>
     <Route path='/dashboard' element={<Dashbooard/>}/>
-    <Route path='/' element={<LoginPage/>}/>
+    <Route path='/' element={<Latihan/>}/>
     <Route path='/Register' element={<Register/>}/>
     <Route path='/allmovie' element={<AllMovie/>}/>
     <Route path='/:namemovie' element={<SearchMovie/>}/>
