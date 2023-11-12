@@ -5,7 +5,7 @@ import http2 from '../../utils/http2';
 
 const LoginUser = async (input) => {
 
-    return await http2.post(API_ENDPOINT.LOGIN_USER, input );
+    return await http3.post(API_ENDPOINT.LOGIN_USER, input );
      
   };
   

@@ -49,7 +49,7 @@ export const Register = () => {
     
         <div className='w-screen h-screen  flex justify-center items-center bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-black via-red-700 to-black'>
         <div className='flex flex-col justify-items-center p-[7rem] rounded-3xl backdrop-blur-xl bg-black/40 '>
-        <p className='text-white font-bold text-2xl text-center'>Register</p>
+        <p className='text-white font-bold text-2xl text-center'>Sign up</p>
         <p className=' text-white  ' >Username</p>
         <input onChange={handleInput} id='Username' className='border w-[20rem] rounded-md mt-1' type='text' ></input>
         <p className=' text-white  '>email</p>
@@ -57,7 +57,10 @@ export const Register = () => {
         <p className='text-white'>password</p>
         <input onChange={handleInput} id='Password' className='border w-[20rem] rounded-md mt-1' type='password' ></input>
         <button className='bg-red-600 rounded-lg text-white py-1 mt-4 font-medium' onClick={() =>  registerUser() }> Register </button>
-
+        <div className="flex gap-3 justify-center text-white mt-6">
+        <p>Already have an account?</p>
+        <a href="/" className="underline font-semibold"> Log in here</a>
+        </div>
 
     
         </div>

@@ -15,6 +15,7 @@ export const TodoList = () => {
   return (
     <BrowserRouter>
     <Routes>
+    <Route path='/Home' element={<Home/>}/>
     <Route path='/dashboard' element={<Dashbooard/>}/>
     <Route path='/' element={<LoginPage/>}/>
     <Route path='/Register' element={<Register/>}/>

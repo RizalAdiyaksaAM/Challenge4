@@ -4,15 +4,16 @@ import { useNavigate } from 'react-router-dom'
 
 export const Dashbooard = () => {
     
-    const navigate = useNavigate()
+    
+  const navigate = useNavigate()
 
-    useEffect(() => {
-        const cekCookie = CookieStorage.get(CookieKeys.AuthToken)
-        if (!cekCookie) {
-            navigate('/Login')
-        } 
-        
-    })
+  useEffect(() => {
+      const cekCookie = CookieStorage.get(CookieKeys.AuthToken)
+      if (!cekCookie) {
+          navigate('/')
+      } 
+      
+  })
 
     return (
     <div>Dashbooard</div>
